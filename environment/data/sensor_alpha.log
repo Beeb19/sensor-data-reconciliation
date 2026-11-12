@@ -1,0 +1,14 @@
+{"timestamp": 1715524200, "temp_celsius": 20.0, "status_code": 200}
+{"timestamp": 1715524260, "temp_celsius": 20.5, "status_code": 200}
+{"timestamp": 1715524320, "temp_celsius": 35.0, "status_code": 200}
+{"timestamp": 1715524380, "temp_celsius": 36.0, "status_code": 200}
+{"timestamp": 1715524440, "temp_celsius": 22.0, "status_code": 200}
+{"timestamp": 1715524500, "temp_celsius": 22.5, "status_code": 200}
+{"timestamp": 1715524560, "temp_celsius": null, "status_code": 200}
+{"timestamp": 1715524620, "temp_celsius": 23.5, "status_code": 200}
+{"timestamp": 1715524680, "temp_celsius": 24.0, "status_code": 200}
+{"timestamp": 1715524800, "temp_celsius": 25.0, "status_code": 200}
+{"timestamp": 1715524860, "temp_celsius": 25.5, "status_code": 200}
+{"timestamp": 1715524920, "temp_celsius": 26.0, "status_code": 200}
+{"timestamp": 1715524980, "temp_celsius": 26.5, "status_code": 200}
+{"timestamp": 1715525040, "temp_celsius": 99.0, "status_code": 404}

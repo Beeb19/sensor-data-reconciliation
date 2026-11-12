@@ -1,0 +1,24 @@
+# Task metadata and resource configuration. Set the two metadata fields below
+# for your task; tune resource defaults only if your task actually needs more.
+# Full guidance: docs/task-anatomy.md → task.toml section.
+
+[metadata]
+# REPLACE: pick a category (see Task Categories) and set a non-zero estimate.
+category = "data_science"                    # software_engineering, data_science, security, etc.
+expert_time_estimate_hours = 1.0   # best-case hours for a focused expert who knows the answer
+
+[verifier]
+timeout_sec = 600.0
+
+[agent]
+timeout_sec = 3600.0            # raise for tasks that may take an agent multiple hours
+
+[environment]
+build_timeout_sec = 6000.0
+cpus = 2
+memory_mb = 4096
+storage_mb = 10240
+gpus = 0                         # set to 1 only if the task genuinely needs GPU
+# Keep true for default toolkit tasks: tests/test.sh installs runtime verifier deps.
+# Offline tasks need a fully vendored verifier harness and offline validation/trials.
+allow_internet = true
